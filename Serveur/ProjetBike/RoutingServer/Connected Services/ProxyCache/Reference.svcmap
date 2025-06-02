@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="5adc0c82-e3d3-4f59-a0b6-613104f15d04" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/ProxyCacheServeur/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="b7e4ae3d-f256-4065-9435-ee7203dae5a6" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ProxyCacheServeur/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="5ed54d53-7ec6-4a50-b57b-dd80d0fff9a3" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ProxyCacheServeur/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="21b56cfd-836f-43b1-873f-18510422b14c" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ProxyCacheServeur/Service1/mex" />
+    <MetadataFile FileName="ProxyCacheServeur.xsd" MetadataType="Schema" ID="c4ee0823-3c92-4665-9e2e-c10bf42b6106" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ProxyCacheServeur/Service1/mex" />
+    <MetadataFile FileName="System.Device.Location.xsd" MetadataType="Schema" ID="2ca7dfb1-761d-4810-bf92-e113d38d3e93" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ProxyCacheServeur/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

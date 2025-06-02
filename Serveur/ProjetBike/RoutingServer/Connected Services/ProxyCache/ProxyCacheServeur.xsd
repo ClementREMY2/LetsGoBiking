@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ProxyCacheServeur" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ProxyCacheServeur" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfJCDecaux_Json_Model.BikeStation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="JCDecaux_Json_Model.BikeStation" nillable="true" type="tns:JCDecaux_Json_Model.BikeStation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfJCDecaux_Json_Model.BikeStation" nillable="true" type="tns:ArrayOfJCDecaux_Json_Model.BikeStation" />
+  <xs:complexType name="JCDecaux_Json_Model.BikeStation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="available_bike_stands" type="xs:int" />
+      <xs:element minOccurs="0" name="available_bikes" type="xs:int" />
+      <xs:element minOccurs="0" name="contract_name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="position" nillable="true" type="tns:JCDecaux_Json_Model.Position" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="JCDecaux_Json_Model.BikeStation" nillable="true" type="tns:JCDecaux_Json_Model.BikeStation" />
+  <xs:complexType name="JCDecaux_Json_Model.Position">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="lat" type="xs:float" />
+      <xs:element minOccurs="0" name="lng" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="JCDecaux_Json_Model.Position" nillable="true" type="tns:JCDecaux_Json_Model.Position" />
+</xs:schema>

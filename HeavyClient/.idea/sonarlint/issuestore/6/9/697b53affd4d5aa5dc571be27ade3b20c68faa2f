@@ -1,0 +1,27 @@
+
+g	java:S112q"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¢Œ¹£Ã1
+l
+java:S1192c"JDefine a constant instead of duplicating this literal " min and " 3 times.(é©Ôşúÿÿÿÿ8ö®ˆ¤Ã1
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8¤Œ¹£Ã1
+J
+java:S1604."(Make this anonymous inner class a lambda(†ºø£şÿÿÿÿ8¤Œ¹£Ã1
+t
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 61 to the 15 allowed.(¼¾®œşÿÿÿÿ8¸¹£Ã1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(×‡¾¨ıÿÿÿÿ8»¹£Ã1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(óÂ«ùÿÿÿÿ8Â¹£Ã1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‚Ëß¯ÿÿÿÿÿ8Â¹£Ã1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ßšçŞüÿÿÿÿ8Ã¹£Ã1
+[
+java:S1155 ">Use isEmpty() to check whether the collection is empty or not.(ŒÙ˜—8Ä¹£Ã1
+Ë
+java:S5301$"®Secure this "ActiveMQConnectionFactory" by whitelisting the trusted packages using the "setTrustedPackages" method and make sure the "setTrustAllPackages" is not set to true.(Ø“¥i8Ê¹£Ã1
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(œæŸÿÿÿÿÿ8Ğ¹£Ã1
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(û»ôô8Ô¹£Ã1
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8Ô¹£Ã1
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(é©Ôşúÿÿÿÿ8Ø¹£Ã1
+Z	java:S106f"9Replace this use of System.out or System.err by a logger.(ØÖõúÿÿÿÿ8Ù¹£Ã1
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(–ßµ‡øÿÿÿÿ8¢ÓØ£Ã1
+{
+java:S2142p"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¡—º£Ã1
+Z	java:S106t"9Replace this use of System.out or System.err by a logger.(¸İõÂùÿÿÿÿ8¥ÓØ£Ã1
